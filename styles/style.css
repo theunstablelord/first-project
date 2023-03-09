@@ -1,0 +1,145 @@
+.page {
+  background-image: url(/images/background.png);
+  background-size: cover;
+  min-width: 1100px;
+  max-width: 1600px;
+  width: 100vw;
+  height: 100vh;
+}
+
+.header {
+  display: flex;
+  position: relative;
+}
+
+.header__title {
+  display: flex;
+  font-family: 'Times New Roman', Times, serif;
+  margin: 0;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 140%;
+  position: absolute;
+  width: 212px;
+  height: 50px;
+  left: 77px;
+  top: 64px;
+  color: #fff;
+}
+
+.header__row-links {
+  display: flex;
+  flex-direction: row;
+  width: 444px;
+  height: 37px;
+  position: absolute;
+  top: 70px;
+  right: 409px;
+  justify-content: space-around;
+}
+
+.header__button {
+  display: flex;
+  width: 260px;
+  height: 70px;
+  border: 2px solid #fff;
+  border-radius: 20px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.75);
+  background-color: transparent;
+  position: absolute;
+  top: 64px;
+  right: 63px;
+  align-items: center;
+  justify-content: center;
+}
+
+.header__button-link {
+  text-decoration: none;
+  color: #fff;
+  font-size: 36px;
+  line-height: 140%;
+}
+
+.list {
+  list-style: none;
+  padding: 0;
+}
+
+.album {
+  display: flex;
+  flex-direction: column;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-style: italic;
+  color: #fff;
+  position: relative;
+}
+
+.album__title {
+  display: flex;
+  margin: 0;
+  font-size: 70px;
+  font-weight: 700;
+  line-height: 82px;
+  position: absolute;
+  top: 315px;
+  left: 131px;
+}
+
+.album__text {
+  display: flex;
+  margin: 0;
+  width: 688px;
+  height: 101px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22px;
+  position: absolute;
+  top: 455px;
+  left: 131px;
+}
+
+.footer {
+  display: flex;
+  position: relative;
+  justify-content: center;
+}
+
+.footer__row-links {
+  display: flex;
+  flex-direction: row;
+  width: 774px;
+  height: 70px;
+  position: absolute;
+  left: 381px;
+  top: 600px;
+  justify-content: space-around;
+}
+
+.button__footer {
+  display: flex;
+  width: 190px;
+  height: 70px;
+  border: 2px solid #fff;
+  border-radius: 23px;
+  box-shadow: 0px 4px 4px 4px rgba(0, 0, 0, 0.3);
+  background-color: transparent;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer__button-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  color: #fff;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-style: italic;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 140%;
+}
+
+.footer__button-icon {
+  margin-right: 19px;
+}

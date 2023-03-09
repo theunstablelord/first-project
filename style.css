@@ -1,7 +1,0 @@
-@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
-
-.greeting {
-  display: flex;
-  font-family: 'Oswald', sans-serif;
-  font-size: 50px;
-}
