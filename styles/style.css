@@ -5,6 +5,8 @@
   max-width: 1600px;
   width: 100vw;
   height: 100vh;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-style: italic;
 }
 
 .header {
@@ -12,19 +14,11 @@
   position: relative;
 }
 
-.header__title {
-  display: flex;
-  font-family: 'Times New Roman', Times, serif;
-  margin: 0;
-  font-weight: 400;
-  font-size: 36px;
-  line-height: 140%;
+.logo_place_header {
   position: absolute;
-  width: 212px;
-  height: 50px;
+  height: 27px;
   left: 77px;
-  top: 64px;
-  color: #fff;
+  top: 94px;
 }
 
 .header__row-links {
@@ -56,8 +50,10 @@
 .header__button-link {
   text-decoration: none;
   color: #fff;
+  font-weight: 700;
   font-size: 36px;
   line-height: 140%;
+  font-style: italic;
 }
 
 .list {
@@ -68,8 +64,6 @@
 .album {
   display: flex;
   flex-direction: column;
-  font-family: 'Roboto Condensed', sans-serif;
-  font-style: italic;
   color: #fff;
   position: relative;
 }
@@ -133,11 +127,10 @@
   justify-content: center;
   text-decoration: none;
   color: #fff;
-  font-family: 'Roboto Condensed', sans-serif;
-  font-style: italic;
   font-weight: 700;
   font-size: 26px;
   line-height: 140%;
+  font-style: italic;
 }
 
 .footer__button-icon {
